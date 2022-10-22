@@ -22,6 +22,26 @@ h3 {
 }
 .hero-img-home {
   background-image: url("/images/background-home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-img-about {
+  background-image: url("/images/background-about.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-img-projects {
+  background-image: url("/images/background-projects.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-img-contact {
+  background-image: url("/images/background-contact.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (max-width: 1400px) {
