@@ -1,0 +1,67 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 150px;
+}
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.font-birthstone {
+  font-family: "Birthstone Bounce", cursive;
+}
+.max-margin {
+  margin-top: 75px;
+}
+.hero-img-home {
+  background-image: url("/images/background-home.png");
+}
+
+@media (max-width: 1400px) {
+  h1 {
+    font-size: 120px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .max-margin {
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 1100px) {
+  h1 {
+    font-size: 95px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 770px) {
+  h1 {
+    font-size: 52px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+}
