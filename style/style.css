@@ -1,5 +1,9 @@
+:root {
+  --heading-font-family: "Comforter", cursive;
+  --body-font-family: "Montserrat", sans-serif;
+}
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--body-font-family);
   font-weight: 500;
 }
 
@@ -14,8 +18,8 @@ h3 {
   font-size: 20px;
 }
 
-.font-birthstone {
-  font-family: "Birthstone Bounce", cursive;
+.heading-font {
+  font-family: var(--heading-font-family);
 }
 .max-margin {
   margin-top: 75px;
