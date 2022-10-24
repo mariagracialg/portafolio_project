@@ -1,6 +1,8 @@
 :root {
   --heading-font-family: "Comforter", cursive;
-  --body-font-family: "Montserrat", sans-serif;
+  --body-font-family: "Poppins", sans-serif;
+  --primary-color: #924c87;
+  --secondary-color: #5a3054;
 }
 body {
   font-family: var(--body-font-family);
@@ -18,8 +20,43 @@ h3 {
   font-size: 20px;
 }
 
+.work-banner h2 {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.work-banner p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #f9f7fe;
+  color: #272044;
+}
+
+footer a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #272044;
+}
+
+footer a:hover {
+  color: var(--primary-color);
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
 .heading-font {
   font-family: var(--heading-font-family);
+}
+
+.sub-heading {
+  font-weight: 600;
+  color: #924c87;
 }
 .max-margin {
   margin-top: 75px;
@@ -48,6 +85,78 @@ h3 {
   background-size: cover;
 }
 
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-item {
+  background: no-repeat scroll center scroll;
+  background-size: cover;
+}
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.7;
+}
+
+.carousel-caption h5 {
+  font-size: 24px;
+  font-weight: 750;
+}
+
+.carousel-caption p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.btn-secondary:hover {
+  color: #ffffff;
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.work-banner {
+  background-image: url(/images/background-home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 80px;
+  padding: 80px 50px;
+}
+
+#brand-logo {
+  font-size: 34px;
+}
+
 @media (max-width: 1400px) {
   h1 {
     font-size: 120px;
@@ -64,28 +173,32 @@ h3 {
   }
 }
 
-@media (max-width: 1100px) {
-  h1 {
-    font-size: 95px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-  h3 {
-    font-size: 12px;
-  }
-}
-
 @media (max-width: 770px) {
   h1 {
-    font-size: 52px;
+    font-size: 60px;
   }
   h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   h3 {
-    font-size: 12px;
+    font-size: 16px;
+  }
+  #brand-logo {
+    font-size: 24px;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+
+  .work-banner h2 {
+    font-weight: 700;
+    font-size: 28px;
+  }
+
+  .work-banner p {
+    font-weight: 400;
+    font-size: 16px;
   }
 }
