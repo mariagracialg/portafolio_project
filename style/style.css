@@ -85,6 +85,16 @@ footer p {
   background-size: cover;
 }
 
+.about-img {
+  font-size: 32px;
+  color: var(--secondary-color);
+}
+
+.about-branch {
+  font-size: 24px;
+  color: #272044;
+}
+
 .img-center {
   display: block;
   margin-left: auto;
@@ -200,5 +210,13 @@ footer p {
   .work-banner p {
     font-weight: 400;
     font-size: 16px;
+  }
+
+  .about-img {
+    font-size: 24px;
+  }
+
+  .about-branch {
+    font-size: 20px;
   }
 }
