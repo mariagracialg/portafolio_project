@@ -7,6 +7,12 @@
 body {
   font-family: var(--body-font-family);
   font-weight: 500;
+  margin-bottom: 60px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
 }
 
 h1 {
@@ -30,9 +36,28 @@ h3 {
   font-size: 18px;
 }
 
+.contact-hero h1 {
+  font-weight: 600;
+  font-size: 65px;
+  color: #5d7a66;
+}
+.contact-banner h1 {
+  font-weight: 600;
+  font-size: 75px;
+}
+
+.contact-banner p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
 footer {
   background-color: #f9f7fe;
   color: #272044;
+  position: absolute;
+  height: 70px;
+  bottom: 0px;
+  width: 100%;
 }
 
 footer a {
@@ -153,14 +178,50 @@ footer p {
   border-color: var(--secondary-color);
 }
 
+.btn-contact {
+  background-color: #ffffff;
+  border-color: #145374;
+  color: #145374;
+  padding: 10px 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.btn-contact:hover {
+  background-color: #333061;
+  border-color: #333061;
+  color: #ffffff;
+}
+
 .work-banner {
   background-image: url(/images/background-home.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
   margin: auto;
-  margin-bottom: 80px;
+  margin-bottom: 120px;
   padding: 80px 50px;
+}
+
+.contact-banner {
+  background-image: url(/images/background-contact-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  margin: auto;
+  padding: 80px 50px;
+}
+
+.contact-icon {
+  color: #ffffff;
+  font-size: 32px;
+  background-color: #145374;
+  padding: 20px 20px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.contact-link-section {
+  margin-bottom: 150px;
 }
 
 #brand-logo {
@@ -218,5 +279,9 @@ footer p {
 
   .about-branch {
     font-size: 20px;
+  }
+
+  .contact-banner h1 {
+    font-size: 45px;
   }
 }
