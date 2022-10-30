@@ -65,7 +65,7 @@
               alt="Maria Gracia"
               width="70%"
               id="headshot"
-              class="img-fluid"
+              class="img-fluid pt-5"
             />
           </div>
         </div>
@@ -73,7 +73,106 @@
     </div>
     <div class="container">
       <h2 class="text-center mt-5 sub-heading">About Me</h2>
-      <div class="row text-center m-3">
+      <div
+        class="accordion d-block d-xl-none mt-4 mb-4 shadow-sm"
+        id="accordionExample"
+      >
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              <h3 class="about-branch-mobile">
+                <i class="fa-solid fa-briefcase pe-2"></i>Business
+              </h3>
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              As a business-oriented person, you'll find I'm all about planning
+              and prioritizing requirements. During my major, I've gained skills
+              that allow me to build solutions that attend to the end user's
+              pressing concerns and immediate needs. Moreover, I'm constantly
+              developing skills that interplay in every work environment such as
+              leadership, teamwork, and communication.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              <h3 class="about-branch-mobile">
+                <i class="fa-solid fa-list-check pe-2"></i>Project Management
+              </h3>
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              I have 5+ years of experience working in tech and about two years
+              of experience in project deliveries. In 2022 I gained my
+              postgraduate degree with an emphasis on Project Management and
+              have continued moving forward on that professional path. You'll
+              usually find me interacting with clients from different industries
+              and working side by side with developers to deliver working
+              software.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              <h3 class="about-branch-mobile">
+                <i class="fa-solid fa-code pe-2"></i>Coding
+              </h3>
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              A big part of my job involves interacting with developers and
+              products, that's why I look forward to broadening my horizons and
+              understanding coding thoroughly to become a better professional.
+              As a huge plus, coding has brought me far more joy than I
+              anticipated. Being able to create something new from scratch is
+              exhilarating!
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center mt-4 mb-3 d-none d-xl-flex">
         <div class="col-lg">
           <i class="fa-solid fa-briefcase about-img"></i>
           <h3 class="about-branch pt-4">Business</h3>
@@ -115,9 +214,7 @@
     <div class="container">
       <div class="row text-center">
         <div class="col mb-5">
-          <a href="/about.html" class="btn btn-secondary" target="_blank"
-            >Learn More</a
-          >
+          <a href="/about.html" class="btn btn-secondary shadow">Learn More</a>
         </div>
       </div>
     </div>
@@ -166,14 +263,6 @@
                   My first ever coding project. Used HTML, CSS and JavaScript to
                   build a static web page with a yoga theme.
                 </p>
-                <div class="slider-btn">
-                  <a
-                    href="https://classy-muffin-717536.netlify.app/"
-                    class="btn btn-primary"
-                    target="_blank"
-                    >View Project</a
-                  >
-                </div>
               </div>
             </div>
             <div class="carousel-item">
@@ -187,14 +276,6 @@
                 <p>
                   Fully functioning weather app powered by OpenWeather's API.
                 </p>
-                <div class="slider-btn">
-                  <a
-                    href="https://sensational-tapioca-542227.netlify.app/"
-                    class="btn btn-primary"
-                    target="_blank"
-                    >View Project</a
-                  >
-                </div>
               </div>
             </div>
 
@@ -211,14 +292,6 @@
                   My main objetive was to create a fully responsive website to
                   display my coding journey.
                 </p>
-                <div class="slider-btn">
-                  <a
-                    href="https://unrivaled-taiyaki-f7874a.netlify.app/"
-                    class="btn btn-primary"
-                    target="_blank"
-                    >View Project</a
-                  >
-                </div>
               </div>
             </div>
           </div>
@@ -246,17 +319,17 @@
     <div class="container">
       <div class="row text-center mt-5">
         <div class="col mb-5">
-          <a href="/projects.html" class="btn btn-secondary" target="_blank"
-            >More Projects</a
+          <a href="/projects.html" class="btn btn-secondary shadow"
+            >View Projects</a
           >
         </div>
       </div>
     </div>
     <div class="container">
-      <div class="row mt-3 mb-5">
-        <h3 class="text-center mb-5">
-          I'm currently using these skills in my projects
-        </h3>
+      <h3 class="text-center mb-5">
+        I'm currently using these skills in my projects
+      </h3>
+      <div class="row mt-3 mb-5 row-cols-2 row-cols-lg-5 g-2 g-lg-3">
         <div class="col-md p-3">
           <img
             src="/images/html.png"
@@ -360,14 +433,16 @@
       </div>
     </div>
 
-    <div class="container work-banner">
-      <div class="row align-items-center">
+    <div class="container">
+      <div class="row align-items-center work-banner shadow">
         <div class="col-sm text-center">
           <h2>Work Inquiry</h2>
           <p>Let's work together and i'll help you by all my best</p>
         </div>
         <div class="col-sm text-center">
-          <a href="/contact.html" class="btn btn-primary">Let's talk here</a>
+          <a href="/contact.html" class="btn btn-primary shadow"
+            >Let's talk here</a
+          >
         </div>
       </div>
     </div>

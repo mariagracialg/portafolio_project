@@ -84,7 +84,7 @@ footer p {
   color: #924c87;
 }
 .max-margin {
-  margin-top: 75px;
+  margin-top: 60px;
 }
 .hero-img-home {
   background-image: url("/images/background-home.png");
@@ -96,6 +96,18 @@ footer p {
   background-image: url("/images/background-about.png");
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 10px;
+  margin: auto;
+  padding: 30px 50px;
+}
+
+.hero-img-about h1 {
+  font-size: 75px;
+  font-weight: 600;
+}
+
+.cv-section {
+  margin-bottom: 120px;
 }
 
 .hero-img-projects {
@@ -123,6 +135,11 @@ footer p {
   overflow: hidden;
 } */
 
+.about-headshot {
+  width: 100%;
+  border-radius: 10px;
+}
+
 .about-img {
   font-size: 32px;
   color: var(--secondary-color);
@@ -133,6 +150,21 @@ footer p {
   color: #272044;
 }
 
+.about-branch-mobile {
+  font-size: 18px;
+  color: var(--secondary-color);
+  margin-bottom: 0px;
+  padding: 10px 10px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--primary-color);
+  background-color: #f4f4f4;
+}
+.accordion-button:focus {
+  border-color: var(--primary-color);
+  box-shadow: var(--primary-color);
+}
 .img-center {
   display: block;
   margin-left: auto;
@@ -301,6 +333,9 @@ footer p {
     font-size: 45px;
   }
   .hero-img-projects h1 {
+    font-size: 45px;
+  }
+  .hero-img-about h1 {
     font-size: 45px;
   }
 }
