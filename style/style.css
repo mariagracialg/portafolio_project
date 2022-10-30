@@ -86,6 +86,9 @@ footer p {
 .max-margin {
   margin-top: 60px;
 }
+.margin-bottom {
+  margin-bottom: 120px;
+}
 .hero-img-home {
   background-image: url("/images/background-home.png");
   background-repeat: no-repeat;
@@ -110,6 +113,19 @@ footer p {
   margin-bottom: 120px;
 }
 
+.about-socials {
+  background-image: url("/images/background-about.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-socials h3 {
+  font-size: 24px;
+}
+.about-socials p {
+  font-size: 16px;
+}
+
 .hero-img-projects {
   background-image: url("/images/background-projects.png");
   background-repeat: no-repeat;
@@ -128,16 +144,14 @@ footer p {
   font-weight: 700;
 }
 
-/* .ellipsis {
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
+.ellipsis {
+  white-space: nowrap;
   overflow: hidden;
-} */
+  text-overflow: ellipsis;
+}
 
 .about-headshot {
-  width: 100%;
-  border-radius: 10px;
+  width: 80%;
 }
 
 .about-img {
@@ -256,17 +270,16 @@ footer p {
   padding: 80px 50px;
 }
 
+.contact-banner a {
+  font-weight: 600;
+}
+
 .contact-icon {
   color: #ffffff;
   font-size: 32px;
   background-color: #145374;
   padding: 20px 20px;
   border-radius: 50%;
-  margin-bottom: 15px;
-}
-
-.contact-link-section {
-  margin-bottom: 90px;
 }
 
 #brand-logo {
@@ -289,6 +302,10 @@ footer p {
   }
   .contact-banner h1 {
     font-size: 65px;
+  }
+
+  .contact-icon {
+    font-size: 24px;
   }
 }
 
@@ -331,6 +348,7 @@ footer p {
 
   .contact-banner h1 {
     font-size: 45px;
+    text-align: center;
   }
   .hero-img-projects h1 {
     font-size: 45px;
