@@ -102,13 +102,26 @@ footer p {
   background-image: url("/images/background-projects.png");
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 10px;
+  margin: auto;
+  padding: 30px 50px;
 }
 
-.hero-img-contact {
-  background-image: url("/images/background-contact.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+.hero-img-projects h1 {
+  font-size: 75px;
+  font-weight: 600;
 }
+
+.card-title {
+  font-weight: 700;
+}
+
+/* .ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+} */
 
 .about-img {
   font-size: 32px;
@@ -221,7 +234,7 @@ footer p {
 }
 
 .contact-link-section {
-  margin-bottom: 150px;
+  margin-bottom: 90px;
 }
 
 #brand-logo {
@@ -241,6 +254,9 @@ footer p {
   }
   .max-margin {
     margin-top: 12px;
+  }
+  .contact-banner h1 {
+    font-size: 65px;
   }
 }
 
@@ -282,6 +298,9 @@ footer p {
   }
 
   .contact-banner h1 {
+    font-size: 45px;
+  }
+  .hero-img-projects h1 {
     font-size: 45px;
   }
 }
